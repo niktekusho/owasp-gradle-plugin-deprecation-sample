@@ -1,6 +1,6 @@
-# Reproduction case for the issue XXX
+# Reproduction case for the issue [jeremylong/DependencyCheck#2644](https://github.com/jeremylong/DependencyCheck/issues/2644)
 
-This repository contains the reproduction case for the issue xxx.
+This repository contains the reproduction case for the issue [jeremylong/DependencyCheck#2644](https://github.com/jeremylong/DependencyCheck/issues/2644).
 
 When running the dependency analyzer plugin,  Gradle warns about the resolution of deprecated configurations. Gradle 7 will not set up these configurations. 
 
