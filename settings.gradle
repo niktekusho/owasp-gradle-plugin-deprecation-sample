@@ -1,0 +1,7 @@
+rootProject.name = 'owasp-gradle-plugin-deprecation-sample'
+
+include 'core', 'cli'
+
+rootProject.children.each {
+    it.buildFileName = it.name + '.gradle'
+}

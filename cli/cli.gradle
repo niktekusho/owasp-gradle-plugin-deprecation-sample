@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':core')
+}
+
+mainClassName = 'owasp.gradle.plugin.deprecation.sample.Application'
